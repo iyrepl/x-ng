@@ -11,7 +11,7 @@ fi
 chmod 777 ~/nginx/sbin/nginx
 
 if [ ! -f "xray" ];then
-  curl -L https://github.com/XTLS/Xray-core/releases/download/v1.5.3/Xray-linux-64.zip -o xray.zip
+  curl -L https://github.com/XTLS/Xray-core/releases/latest/download/Xray-linux-64.ziphttps://github.com/XTLS/Xray-core/releases/download/v1.5.3/Xray-linux-64.zip -o xray.zip
 unzip -o xray.zip
 rm -f xray.zip
 fi
